@@ -18,6 +18,8 @@ Quality of results (QoR) metrics: The routing tool generates various QoR metrics
 
 Overall, the routing step is a critical part of the physical design process that determines the physical connectivity of the design. The routing results have a significant impact on the final chip performance and yield, making it an important step in VLSI physical design.
 
+#### More on routing
+
 Routing algorithms: There are various routing algorithms that can be used for the detailed routing step, including maze routing, Lee's algorithm, A* algorithm, and Dijkstra's algorithm. Each algorithm has its own advantages and disadvantages, and the selection of the routing algorithm depends on factors such as the complexity of the design, the available routing resources, and the required routing quality.
 
 Power routing: Power routing is the process of routing the power and ground signals in the design. Power routing is usually performed separately from signal routing to reduce the effect of electromigration and minimize the voltage drop in the power distribution network.

@@ -37,3 +37,13 @@ After the floorplan is complete, the design goes through a series of steps, incl
 During the DFT stage, testability analysis is performed to identify potential testing problems and determine the appropriate DFT techniques to use. Test point insertion, scan chain insertion, and boundary scan insertion are then performed, and the DFT features are verified using simulation and test pattern generation tools.
 
 Once the DFT stage is complete, the design proceeds to the place and route stage, where the functional blocks are placed on the chip and connected with routing wires. Finally, the design goes through physical verification, including design rule checking (DRC) and layout versus schematic (LVS) verification, before being sent for fabrication.
+
+#### is DFT done after logic synthesis and befor floorplan
+
+DFT can be done after logic synthesis and before floorplanning, or after floorplanning and before placement and routing. The exact timing of the DFT stage in the design flow can vary depending on the design team's preferences and the specific design requirements.
+
+In some cases, it may be more efficient to perform DFT after logic synthesis, as this can help identify any testing problems early in the design process. This can allow the design team to make changes to the RTL code and optimize the design for testability before the physical design stages.
+
+In other cases, it may be more effective to perform DFT after floorplanning, as this can provide a more accurate estimate of test coverage and ensure that the DFT features are correctly integrated into the design.
+
+Regardless of when DFT is performed, it is an essential part of the design process that ensures that the design can be tested effectively and reliably during the manufacturing process. The goal of DFT is to maximize test coverage while minimizing the impact on the design, allowing the design team to detect and fix any defects before the chip is fabricated.

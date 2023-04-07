@@ -17,7 +17,7 @@
 1. [What is GDSII? and What are the differences between GDSII and DEF files](https://github.com/visionvlsi/be_design_using_openlane/blob/main/About_GDSII.md)<br>
 2. [Why use decap cells](https://github.com/visionvlsi/be_design_using_openlane/blob/main/why_decap_cells.md)<br/>
 3. [Why use filler cells](https://github.com/visionvlsi/be_design_using_openlane/blob/main/why_filler_cells.md)<br/>
-4. [Welltap and Endcap cells](https://github.com/visionvlsi/be_design_using_openlane/blob/main/wellcap_and_endcap_cells.md)<br/>
+4. [Welltap and Endcap cells](https://github.com/visionvlsi/be_design_using_openlane/blob/main/welltap_and_endcap_cells.md)<br/>
 5. [other types of cells](https://github.com/visionvlsi/be_design_using_openlane/blob/main/other_cells.md)<br/>
 6. [why do CTS](https://github.com/visionvlsi/be_design_using_openlane/blob/main/why_CTS.md)
 

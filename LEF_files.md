@@ -16,4 +16,4 @@ There are several types of LEF files used in VLSI physical design, including:
 
 5 Macro LEF: A Macro LEF file describes the physical layout of a larger functional block, such as a memory block or a CPU. It includes information about the size, shape, pins, and layers of the macro.
 
-6 LEF files are typically created by the semiconductor library vendor and are provided to the chip designers as part of the library. They are an essential part of the VLSI physical design flow, as they provide the necessary information for the physical design tools to accurately place and route the library elements.
+LEF files are typically created by the semiconductor library vendor and are provided to the chip designers as part of the library. They are an essential part of the VLSI physical design flow, as they provide the necessary information for the physical design tools to accurately place and route the library elements.

@@ -17,3 +17,15 @@ Metal fill insertion: Metal fill insertion is performed during the routing step 
 Quality of results (QoR) metrics: The routing tool generates various QoR metrics to evaluate the quality of the routing results. These metrics may include wirelength, crosstalk, timing, power, and area. The QoR metrics can be used to compare different routing runs and select the best routing for the design.
 
 Overall, the routing step is a critical part of the physical design process that determines the physical connectivity of the design. The routing results have a significant impact on the final chip performance and yield, making it an important step in VLSI physical design.
+
+Routing algorithms: There are various routing algorithms that can be used for the detailed routing step, including maze routing, Lee's algorithm, A* algorithm, and Dijkstra's algorithm. Each algorithm has its own advantages and disadvantages, and the selection of the routing algorithm depends on factors such as the complexity of the design, the available routing resources, and the required routing quality.
+
+Power routing: Power routing is the process of routing the power and ground signals in the design. Power routing is usually performed separately from signal routing to reduce the effect of electromigration and minimize the voltage drop in the power distribution network.
+
+Routing optimization: Routing optimization techniques can be used to improve the quality of the routing results. These techniques include via optimization, layer assignment optimization, and congestion-driven routing. Via optimization involves minimizing the number of vias used in the routing to reduce the routing delay and area. Layer assignment optimization involves assigning the nets to the appropriate metal layers to minimize the number of vias and reduce the routing delay. Congestion-driven routing involves using a routing algorithm that considers the congestion levels of the different routing tracks to avoid congested areas and improve the routing quality.
+
+Physical verification: Physical verification checks are performed during the routing step to ensure that the routing meets the physical design rules and constraints. These checks include design rule checking (DRC) and layout versus schematic (LVS) checks. DRC checks are performed to ensure that the routing meets the minimum spacing, width, and density requirements, while LVS checks are performed to ensure that the routing matches the original netlist.
+
+Incremental routing: Incremental routing is a technique that is used when changes are made to the design after the routing has been completed. Incremental routing involves re-routing only the affected nets, rather than re-routing the entire design. This can save time and reduce the risk of introducing new errors into the routing.
+
+Overall, the routing step is a complex process that involves a variety of techniques and tools. The quality of the routing results can have a significant impact on the performance, yield, and reliability of the final chip, making it a critical step in VLSI physical design.

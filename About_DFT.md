@@ -23,3 +23,17 @@ DFT is done using a combination of automated tools and manual design techniques.
 5 Verification: Once the DFT features are inserted into the design, the design is re-synthesized to ensure that the DFT features are correctly integrated into the design. The DFT features are then verified using simulation and test pattern generation tools to ensure that they function correctly and meet the required test coverage.
 
 Overall, DFT is a complex and iterative process that requires a combination of automated tools and manual design techniques. The goal of DFT is to ensure that the design can be tested effectively and reliably during the manufacturing process.
+
+#### is DFT done before floorplan?
+
+DFT is typically done after the floorplanning stage and before the place and route stage in the IC design flow.
+
+The reason for this is that DFT requires a fully placed and routed design to accurately estimate test coverage and to ensure that the DFT features are correctly integrated into the design.
+
+During the floorplanning stage, the size and shape of the chip are determined, along with the location of the different functional blocks and the power and signal distribution networks. The floorplan provides the physical framework for the rest of the design process, including placement and routing.
+
+After the floorplan is complete, the design goes through a series of steps, including synthesis, optimization, and physical design. The DFT stage is typically done after the synthesis stage and before the place and route stage.
+
+During the DFT stage, testability analysis is performed to identify potential testing problems and determine the appropriate DFT techniques to use. Test point insertion, scan chain insertion, and boundary scan insertion are then performed, and the DFT features are verified using simulation and test pattern generation tools.
+
+Once the DFT stage is complete, the design proceeds to the place and route stage, where the functional blocks are placed on the chip and connected with routing wires. Finally, the design goes through physical verification, including design rule checking (DRC) and layout versus schematic (LVS) verification, before being sent for fabrication.

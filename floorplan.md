@@ -42,6 +42,18 @@ Floorplanning is typically an iterative process that involves multiple iteration
 
 Finally, the floorplan serves as the starting point for the subsequent physical design steps, such as placement and routing. Any changes made to the floorplan may affect the placement and routing, and vice versa. Therefore, it is important to have a good understanding of the floorplan and its impact on the overall chip design.
 
+#### More on floorplan
+
+Floorplanning is not just limited to the placement of functional blocks on the chip. It also includes the placement of various other components, such as I/O pads, power and ground grids, clock distribution networks, decoupling capacitors, and other auxiliary circuits. These components must be placed in a way that minimizes their impact on chip performance and signal integrity while also meeting design constraints and requirements.
+
+Floorplanning can also impact the chip's yield, which is a measure of the percentage of chips that meet the desired performance and functionality specifications. A poorly optimized floorplan can lead to lower yield, as it may result in design rule violations, signal integrity issues, or other manufacturing defects. Therefore, the floorplan must be optimized for manufacturability, taking into account the chip's manufacturing process, lithography constraints, and other design rules.
+
+Floorplanning can also impact the chip's overall cost. A poorly optimized floorplan can result in higher manufacturing costs, as it may require additional process steps, reticles, or other resources. On the other hand, a well-optimized floorplan can help reduce manufacturing costs, as it may require fewer process steps, smaller reticles, or other resources.
+
+Finally, floorplanning is a collaborative process that involves multiple teams, such as system architects, chip designers, layout engineers, and manufacturing experts. Each team has a different set of requirements and constraints, and the floorplan must be optimized to meet the needs of all teams while also meeting the overall design objectives.
+
+In summary, floorplanning is a critical step in VLSI physical design, as it sets the stage for the subsequent placement and routing steps. The floorplan must be optimized for various design parameters, such as power consumption, signal integrity, yield, manufacturability, and cost. It is an iterative process that involves multiple teams and requires a good understanding of the chip's requirements, manufacturing process, and design constraints.
+
 
 
 

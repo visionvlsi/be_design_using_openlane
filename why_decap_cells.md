@@ -18,3 +18,13 @@
 
 <p align="justify">Overall, decap cells are an important component of VLSI physical design, helping to improve the stability and performance of integrated circuits 
   by reducing noise and improving the power supply network.</p>
+
+#### are these cells usage relevant in recent days as well?
+
+<p align="justify">Yes, decap cells are still very relevant in VLSI physical design and are commonly used in modern integrated circuit designs. In fact, as the complexity of integrated circuits continues to increase and the size of transistors continues to decrease, the need for decap cells has become even more critical.</p>
+
+<p align="justify">One reason for this is that as the number of transistors in a chip increases, the power density of the chip also increases. This means that the power supply network must be designed to deliver more power to the components in the chip, while still maintaining a stable voltage level. Decap cells play a critical role in achieving this goal by reducing the amount of noise in the power supply network and improving its stability.</p>
+
+<p align="justify">Additionally, modern integrated circuits are often designed to operate at very high frequencies, which can create additional noise and power supply issues. Decap cells can help to mitigate these issues by providing a local storage of charge and reducing the effects of noise on the power supply network.</p>
+
+<p align="justify">Overall, decap cells remain an important component of VLSI physical design, and their usage is likely to continue to be relevant in future integrated circuit designs.</p>

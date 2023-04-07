@@ -19,3 +19,11 @@ Metal2 is the second metal layer above the active region of the IC and is used f
 In a typical VLSI design, there can be several metal layers, each of which is used for interconnects. The number of metal layers depends on the complexity of the design and the technology used for fabrication. The metal layers are separated by insulating layers called inter-metal dielectrics (IMDs) that prevent metal layers from shorting to each other.
 
 The choice of metal layers and their routing in a VLSI design is a critical aspect of the physical design process. It is important to optimize the routing of metal layers to minimize signal delays, power consumption, and noise. Physical design tools such as place-and-route, routing, and layout editors are used to design and optimize the metal interconnects in a VLSI chip.
+
+#### what are maximum metal layers in today's vlsi
+
+The number of metal layers in a VLSI design varies depending on the technology node, design complexity, and the target application. With advances in semiconductor manufacturing, the number of metal layers has been increasing over time, allowing for more complex designs and higher performance.
+
+In today's VLSI designs, the number of metal layers can range from 6 to 10 or more, depending on the technology node. For example, in the 14nm technology node, the number of metal layers can be as high as 9 or 10. In the 7nm technology node, the number of metal layers can be as high as 12 or more.
+
+The increase in the number of metal layers has enabled the design of more complex digital and mixed-signal circuits, with higher performance and lower power consumption. However, the use of more metal layers also increases the complexity and cost of the physical design process, as well as the manufacturing process. Hence, the choice of the number of metal layers is a tradeoff between design complexity, performance, power consumption, and cost.

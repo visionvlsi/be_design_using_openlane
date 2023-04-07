@@ -16,3 +16,13 @@
 
 <p align="justify">In summary, filler cells are used in VLSI design to improve the uniformity and quality of the layout, to prevent issues with signal propagation, 
   timing, and power consumption, and to reduce the effects of ESD and electromigration.</p>
+  
+  #### at what stage of backend design filler cells are used?
+  
+<p align="justify">Filler cells, also known as dummy cells, are typically added during the backend design stage of the VLSI (Very Large Scale Integration) design flow, after the physical implementation of the design has been completed.</p>
+
+<p align="justify">Once the placement and routing of the VLSI circuit have been finalized, and the layout has been generated, the designer can analyze the layout to identify any empty spaces or irregularities that may affect the circuit's performance. These empty spaces are then filled with filler cells of the same size and shape as the other cells in the design, but with no electrical connection.</p>
+
+<p align="justify">The filler cells are added in a process called "floorplanning," which involves dividing the chip area into smaller blocks and placing the cells in each block. The filler cells are placed in a way that maintains the spacing and alignment of the other cells, ensuring that the overall layout is uniform and regular.</p>
+
+<p align="justify">Overall, the addition of filler cells is an important step in the backend design stage of the VLSI design flow, as it helps to improve the quality and reliability of the integrated circuit by preventing issues such as timing violations, ESD, and electromigration.</p>

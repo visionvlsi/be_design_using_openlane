@@ -31,3 +31,19 @@ Overall, placement is a complex and iterative process that involves multiple des
 6 Multi-objective optimization: Placement is a multi-objective optimization problem, where multiple design objectives and constraints need to be considered simultaneously. The placement tool may use techniques such as Pareto optimization or weighted-sum optimization to find a trade-off between conflicting objectives and constraints.
 
 Overall, the placement step is a crucial stage in VLSI physical design, as it determines the physical locations of the blocks and sets the stage for the subsequent routing and optimization steps. The placement tool uses various algorithms and techniques to optimize the placement of the blocks and meet the design objectives and constraints.
+
+#### More on placement
+
+Pre-placement optimization: Before the actual placement process, some pre-placement optimizations may be performed to ensure that the design is ready for placement. These optimizations may include standard cell legalization, netlist partitioning, and congestion analysis. Standard cell legalization involves adjusting the cell sizes and positions to meet the design rules and constraints. Netlist partitioning involves dividing the design into smaller partitions to facilitate the placement and routing process. Congestion analysis involves analyzing the design for potential congestion and identifying congested regions that need to be addressed during placement.
+
+Hierarchical placement: For larger designs, hierarchical placement may be used to break the design into smaller blocks or clusters that can be placed independently. This reduces the complexity of the placement problem and enables faster runtimes. Hierarchical placement also allows for better control of the design hierarchy and can improve the timing and power results.
+
+Placement blockages: Placement blockages are regions on the chip where no cells or macros can be placed. These blockages may be required for various reasons, such as reserved areas for I/O pads, power pads, or other macros. The placement tool must take these blockages into account during the placement process to avoid placing any cells or macros in these regions.
+
+Timing closure: Timing closure is the process of ensuring that the design meets its timing constraints after the placement step. In some cases, timing closure may require iterative placement and routing steps to achieve the desired timing results. The placement tool may use techniques such as buffer insertion, clock tree synthesis, and optimization-based timing closure to meet the timing constraints.
+
+Post-placement optimization: After the initial placement is complete, some post-placement optimizations may be performed to further improve the placement quality. These optimizations may include cell swapping, row shifting, and global routing optimizations. Cell swapping involves exchanging the positions of two or more cells to reduce wirelength or congestion. Row shifting involves moving entire rows of cells to reduce congestion or improve symmetry. Global routing optimizations involve adjusting the global routing resources, such as the metal layer assignments or the routing track widths, to optimize the routing results.
+
+Quality of results (QoR) metrics: The placement tool generates various QoR metrics to evaluate the quality of the placement results. These metrics may include wirelength, congestion, timing, power, and area. The QoR metrics can be used to compare different placement runs and select the best placement for the design.
+
+Overall, the placement step is a complex process that involves many optimizations and constraints. The placement tool must balance the trade-offs between different objectives and constraints to achieve the best possible placement results. The placement results have a significant impact on the final chip performance and yield, making it an important step in VLSI physical design.

@@ -20,6 +20,7 @@
 4. [Welltap and Endcap cells](https://github.com/visionvlsi/be_design_using_openlane/blob/main/welltap_and_endcap_cells.md)<br/>
 5. [other types of cells](https://github.com/visionvlsi/be_design_using_openlane/blob/main/other_cells.md)<br/>
 6. [why do CTS](https://github.com/visionvlsi/be_design_using_openlane/blob/main/why_CTS.md)
+7. [Know about Antenna checks](https://github.com/visionvlsi/be_design_using_openlane/blob/main/what_is_antenna_checks.md)
 
 
 

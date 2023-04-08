@@ -11,6 +11,7 @@
 1. [Floorplanning stage](https://github.com/visionvlsi/be_design_using_openlane/blob/main/floorplan.md)
 2. [Placement stage](https://github.com/visionvlsi/be_design_using_openlane/blob/main/placement.md)
 3. [Routing stage](https://github.com/visionvlsi/be_design_using_openlane/blob/main/routing.md)
+4. [Final step: Verification and GDSII](https://github.com/visionvlsi/be_design_using_openlane/blob/main/After_routing.md)
 
 #### Few more things related to Physical design
 

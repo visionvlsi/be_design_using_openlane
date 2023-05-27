@@ -20,11 +20,14 @@ Detailed Placement Database</li>
 <li>Latency target if delay and skew are supplied</li>
 <li>DRC Clock Tree (Max Tran, Max Cap, Max fanout, Max number of buffer levels)
  </li>
-Outputs for CTS are:
-In the chip design, there is a database with a well built clock tree. Design Exchange Format (DEF),
-Standard Parasitic Exchange Format (SPEF), and
-Netlist are some of the outputs of clock tree synthesis.
-Why are clock routes given precedence over signal nets?
+
+#### Outputs for CTS are:
+
+<li>In the chip design, there is a database with a well built clock tree. Design Exchange Format (DEF),</li>
+<li>Standard Parasitic Exchange Format (SPEF), and</li>
+<li>Netlist are some of the outputs of clock tree synthesis.</li>
+
+#### Why are clock routes given precedence over signal nets?
 Clock is propagated after placement because it requires the precise physical location of cells and modules for clock propagation, which has an impact on dealing with accurate delay and operating frequency, and clock is propagated before routing because clock routes are given higher priority than signal routes. This is due to the fact that the clock is the sole signal that changes often, acting as a source of dynamic power dissipation.
 
 Effects of CTS are:

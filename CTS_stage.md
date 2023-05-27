@@ -28,7 +28,7 @@ Detailed Placement Database</li>
 <li>Netlist are some of the outputs of clock tree synthesis.</li>
 
 #### Why are clock routes given precedence over signal nets?
-<p>
+<p align="justify">
 Clock is propagated after placement because it requires the precise physical location of cells and modules for clock propagation, which has an impact on dealing with accurate delay and operating frequency, and clock is propagated before routing because clock routes are given higher priority than signal routes. This is due to the fact that the clock is the sole signal that changes often, acting as a source of dynamic power dissipation.</p>
 
 #### Effects of CTS are:
@@ -46,12 +46,12 @@ Timing and maximum tran/cap violations take place.
  </li>
  
 #### What are the processes involved in Clock Tree Synthesis? And what is its impact on the design?
-<p>
+<p align="justify">
 Clock Tree Synthesis refers to the process of dispersing the clock and balancing the load. Basically, the clock is delivered to all successive parts. The technique of inserting buffers or inverters along the clock pathways of an ASIC design to achieve zero/minimum skew or balanced skew is known as CTS. The clock source is the starting point for CTS, and the clock pins of subsequent cells are the ending point for CTS. The path from the Clock Source (Root) to the Clock Sinks is known as the Clock Tree (Leaf). The process of generating this Clock Path from Clock Source to Clock Sinks is known as Clock Tree Synthesis. Clock Sinks (Leaf) are all flip Flop clock pins; this is where the Clock Tree Synthesis finishes.</p>
-<p>
+<p align="justify">
 Skew is the most essential worry for clock networks since it can contribute over 10% of the system cycle time owing to changes in trace length, metal width and height, coupling caps, and local clock load, local power supply, local gate length and threshold, and local temperature. The timer starts at any Clock Source and tracks forward across Combinational Arcs until it hits a flop’s Clock Pin or another Clock Source.
 Before a valid Leaf, all Pins/ Timing Arcs in the forward trace are regarded to be in the clock network. Sequential elements are traced through, if it is a source of the Generated Clock. Pin or Combinational Timing Arcs that trace to a non-clock pin (e.g. D pin of FF) are not part of the Clock Tree network. Clock tracing should be made aware after Case Analysis propagation. Inverters are added to the Clock Tree for improved Duty Cycle. Limit the buffer/inverter list to only 3 or 4 buf/inv sizes.</p>
 
 #### What are the limitations of the Clock Tree Synthesis?
-<p>
+<p align="justify">
 Latency, skew, maximum transition, maximum capacitance, maximum fan-out, and a list of buffers and inverters are among the clock tree limitations. Clock Tree Synthesis has several clock buffers, which can cause congestion, crosstalk noise, and crosstalk latency, among other things.</p>

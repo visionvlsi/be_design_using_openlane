@@ -55,3 +55,7 @@ Before a valid Leaf, all Pins/ Timing Arcs in the forward trace are regarded to 
 #### What are the limitations of the Clock Tree Synthesis?
 <p align="justify">
 Latency, skew, maximum transition, maximum capacitance, maximum fan-out, and a list of buffers and inverters are among the clock tree limitations. Clock Tree Synthesis has several clock buffers, which can cause congestion, crosstalk noise, and crosstalk latency, among other things.</p>
+
+#### Conclusion:
+<p align="justify">
+One of the most significant steps of PnR is Clock Tree Synthesis (CTS). CTS QoR determines power and timing convergence. The clock uses 30-40% of total power in most integrated circuits. As a result, efficient clock design, clock gating, and clock tree implementation aid in power reduction.</p>

@@ -1,22 +1,25 @@
 #### CTS
 
-Clock Tree Synthesis is a technique for distributing the clock equally among all sequential parts of a VLSI design. The purpose of Clock Tree Synthesis is to reduce skew and delay. Clock Tree Synthesis is provided the placement data as well as the clock tree limitations as input. Clock Tree Synthesis (CTS) is the technique of balancing the clock delay to all clock inputs by inserting buffers/inverters along the clock routes of an ASIC design. As a result, CTS is used to balance the skew and reduce insertion latency. Before Clock Tree Synthesis, all clock pins were driven by a single clock source. Clock tree synthesis includes both clock tree construction and clock tree balance.
-Clock tree inverters may be used to create a clock tree that maintains the correct transition (duty cycle), and clock tree buffers (CTB) can balance the clock tree to fulfil the skew and latency requirements. To fulfil the space and power limits, fewer clock tree inverters and buffers should be employed.
+<p align="justify">Clock Tree Synthesis is a technique for distributing the clock equally among all sequential parts of a VLSI design. The purpose of Clock Tree Synthesis is to reduce skew and delay. Clock Tree Synthesis is provided the placement data as well as the clock tree limitations as input. Clock Tree Synthesis (CTS) is the technique of balancing the clock delay to all clock inputs by inserting buffers/inverters along the clock routes of an ASIC design. As a result, CTS is used to balance the skew and reduce insertion latency. Before Clock Tree Synthesis, all clock pins were driven by a single clock source. Clock tree synthesis includes both clock tree construction and clock tree balance.</p>
+<p align="justify">Clock tree inverters may be used to create a clock tree that maintains the correct transition (duty cycle), and clock tree buffers (CTB) can balance the clock tree to fulfil the skew and latency requirements. To fulfil the space and power limits, fewer clock tree inverters and buffers should be employed.</p>
 
-A clock tree can have different structures such as:
+#### A clock tree can have different structures such as:
 Fish bone
 H-tree
 X-tree
 Multi-level clock tree
 Once the Clock Tree Synthesis is complete, we must double-check the timing.
-Optimizations to the clock tree are: Buffer sizing, gate sizing, HFN synthesis, and buffer relocation are used to achieve this.
 
-What are the inputs and outputs of Clock Tree Synthesis?
+#### Optimizations to the clock tree are: Buffer sizing, gate sizing, HFN synthesis, and buffer relocation are used to achieve this.
+
+#### What are the inputs and outputs of Clock Tree Synthesis?
 Inputs Required for CTS are:
-Detailed Placement Database
-Buffers or inverters for creating the clock tree
-Latency target if delay and skew are supplied
-DRC Clock Tree (Max Tran, Max Cap, Max fanout, Max number of buffer levels)
+<li>
+Detailed Placement Database</li>
+<li>Buffers or inverters for creating the clock tree</li>
+<li>Latency target if delay and skew are supplied</li>
+<li>DRC Clock Tree (Max Tran, Max Cap, Max fanout, Max number of buffer levels)
+ </li>
 Outputs for CTS are:
 In the chip design, there is a database with a well built clock tree. Design Exchange Format (DEF),
 Standard Parasitic Exchange Format (SPEF), and

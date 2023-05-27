@@ -59,3 +59,6 @@ Latency, skew, maximum transition, maximum capacitance, maximum fan-out, and a l
 #### Conclusion:
 <p align="justify">
 One of the most significant steps of PnR is Clock Tree Synthesis (CTS). CTS QoR determines power and timing convergence. The clock uses 30-40% of total power in most integrated circuits. As a result, efficient clock design, clock gating, and clock tree implementation aid in power reduction.</p>
+
+<li> PnR = Place and Route </li>
+<li> QoR = Quality of Results </li>
